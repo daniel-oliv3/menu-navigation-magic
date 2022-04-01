@@ -6,8 +6,26 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --bgc: #222327;
 }
 
 body {
-    border: 1px solid orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    background: var(--bgc);
+}
+
+.nav {
+    position: relative;
+    width: 400px;
+    height: 70px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
 }
