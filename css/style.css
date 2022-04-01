@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 100vh;
+    min-height: 100vh;
     background: var(--bgc);
 }
 
@@ -28,4 +28,27 @@ body {
     background: #fff;
     display: flex;
     justify-content: center;
+    border-radius: 10px;
+}
+
+.nav ul {
+    display: flex;
+    width: 350px;
+}
+
+.nav ul li {
+    position: relative;
+    list-style-type: none;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+}
+
+.nav ul li a {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
