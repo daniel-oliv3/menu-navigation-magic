@@ -51,4 +51,29 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.nav ul li a .icon {
+    position: relative;
+    display: block;
+    line-height: 75px;
+    font-size: 1.5em;
+    text-align: center;
+    color: var(--bgc);
+    transition: 0.5s;
+}    
+
+.nav ul li:hover a .icon {
+    transform: translateY(-35px);
+}
+
+.nav ul li a .text {
+    position: absolute;
+    color: var(--bgc);
+    font-weight: 400;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
 }
