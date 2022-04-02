@@ -1,10 +1,10 @@
-const list = document.querySelectorAll(selectors: '.list');
+const list = document.querySelectorAll('.list');
 
 function activeLink(){
-    list.forEach(callbackfn (item Element) =>
-    item.classList.remove(tokens 'active'));
+    list.forEach((item) =>
+    item.classList.remove('active'));
     this.classList.add('active');
 }
 
-list.forEach(callbackfn (item Element) =>
-item.addEventListener(type 'click', activeLink));
+list.forEach((item) =>
+item.addEventListener('click', activeLink));
